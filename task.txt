@@ -1,0 +1,2 @@
+i have writte a function getFactorial to return the factorial of a given num.
+can you write a function that gets the factorial of a number and divide it by two?
