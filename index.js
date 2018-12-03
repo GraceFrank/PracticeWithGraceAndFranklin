@@ -8,3 +8,24 @@ function getFactiorial(num){
   }//end of factorial 
 
   //write your new function below
+  
+ /*===================
+ Take a look at the recursive implementation of your factorial function, how do you see it?
+ */
+
+function factorial(n){
+	if(n == 0) return 1;
+	return n * factorial(n-1);
+}
+
+/*===================
+ An implementation of the factorial function divided by two
+ */
+ 
+function factDivTwo(n){
+	let fact = 1;
+	for(let i = n; i >=1; i--){
+		fact *= i;
+	}
+	return fact/2;
+}
