@@ -6,4 +6,5 @@ function getFactiorial(num){
     }//loop end
     return factorial;
   }//end of factorial 
-  
+
+  //write your new function below
